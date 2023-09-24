@@ -1,10 +1,13 @@
+# importing required modules
 from getpass import getpass
 from time import sleep
 from sys import exit
 
+# greetings
 print("Welcome to ubuntu access")
 sleep(1)
 
+# writing the game logic
 unixname = input("Enter Unix name: ")
 password = getpass(prompt="New password: ")
 retypepassword = getpass(prompt="Retype password: ")
